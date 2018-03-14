@@ -1,0 +1,170 @@
+body{
+
+}
+
+/*.........................................................NAVBAR............................................*/
+
+/*.....................logo navbar............................*/
+.navbar-brand{
+margin-top: 10px;
+margin-left:25px !important;
+margin-right: 30px!important;
+font-size: 30px !important;
+}
+
+.navbar-brand>img{
+	width: 160px;
+	height:80px;
+	margin-top: -25px;
+	margin-left: -30px;
+}
+
+/*........................navbar cote droite....................*/
+
+.navbar-inverse{
+	background-color: inherit;
+	position: static;
+	margin-top: 0px;
+	border-color: white;
+
+}
+.navbar-collapse{
+
+	margin-top: 20px;
+}
+.custom>li>a{
+	color:#000033 !important;
+	font-size: 20px;
+	padding-top: 30px !important;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+/*.............................navbar burger.....................*/
+
+.navbar-toggle{
+	background-color: #ea926a;
+	border:none;
+}
+.row1{
+  background-image:url(dodo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  margin-top: 20px;
+	padding-bottom: 25px;
+}
+.zoom{
+  margin-top: 50px;
+
+}
+.thumbnail{
+  padding: 0px;
+	border: none;
+
+
+
+}
+.thumbnail p{position: absolute;
+  top:30%;
+  left:30%;
+  font-size: 30px;
+  color: white;
+	 text-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+	border: 5px solid white;
+	 padding: 5px;
+	font-weight: bold;
+  display: none;
+
+
+
+}
+.thumbnail>a>img{
+box-shadow: 1px 22px 99px -5px rgba(125,123,125,1);
+
+}
+
+.zoom .thumbnail img {
+  -webkit-transform: scale(1);
+  	transform: scale(1);
+  	-webkit-transition: .5s ease-in-out;
+  	transition: .5s ease-in-out;
+
+
+
+}
+.zoom .thumbnail:hover img {
+  -webkit-transform: scale(1.4);
+  	transform: scale(1.4);
+		background-color: rgba(255,255,255, 0.9);
+
+}
+.zoom .thumbnail:hover p{
+  display:block;
+}
+
+
+
+
+
+
+
+
+.c{box-shadow: 1px 22px 99px -5px rgba(125,123,125,1);
+	margin: 50px;
+
+}
+.photo{
+	padding-left: 25px;
+	padding-top: 20px;
+}
+.grandphoto{margin-bottom: 20px;
+	margin-top:35px;
+	-webkit-box-shadow: 0px 0px 112px -5px rgba(9,9,10,0.85);
+-moz-box-shadow: 0px 0px 112px -5px rgba(9,9,10,0.85);
+box-shadow: 0px 0px 112px -5px rgba(9,9,10,0.85);
+}
+.petitephoto{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	box-shadow: 1px 22px 99px -5px rgba(125,123,125,1);
+}
+
+
+
+.retour>a{
+	text-align: center;
+	font-size: 30px;
+}
+aside{
+	margin-top: 15px;
+}
+
+
+
+
+/*...............................Footer...................*/
+
+footer{
+
+	background-color: #F2F2F2;
+
+}
+.down>li>a{
+	color: #000033;
+	padding-left: 30px;
+	font-weight: bolder;
+	font-size: 15px;
+
+}
+
+
+.logo2{
+	margin-top: -15px !important;
+}
+.list-unstyled{
+	padding-top: 15px;
+	font-size: 15px;
+	padding-left: 5px;
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wildo Codak Photo Blog</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="portofolio.css">
+  <title>Contact</title>
+
+
+  <!-- Bootstrap -->
+</head>
+
+<body>
+
+  <!--............................................................NAVBAR..................................................-->
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="index.html" ><img src="photo/logo.png" alt=""></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav custom">
+            <li>
+              <a href="aboutme.html">About me</a>
+            </li>
+            <li>
+              <a href="equipment.html">Equipments</a>
+            </li>
+            <li>
+              <a href="portofolio.html">Portofolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="galery">
+    <div class="container-fluid">
+      <div class="row row1">
+        <div class="col-sm-4 col-sm-offset-1 zoom">
+          <div class="thumbnail"><a href="#photo1" onclick="toggleVisibility('photo1')"><img src="photo/paris1.jpg" alt=""><p class="text-center">Monuments</p></a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-2 zoom">
+          <div class="thumbnail"><a href="#photo2" onclick="toggleVisibility('photo2')"><img src="photo/paris3.jpg" alt=""><p>Street view</p></a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1 zoom">
+        <div class="thumbnail"><a href="#photo3" onclick="toggleVisibility('photo3')"> <img src="photo/paris4.jpg" alt=""><p>Museums</p></a>
+        </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-2 zoom">
+          <div class="thumbnail"><a href="#photo4" onclick="toggleVisibility('photo4')"><img src="photo/paris7.jpg" alt=""><p>Paris Parcs</p></a></div>
+        </div>
+
+      </div>
+    </div>
+    <section id="photo1" style="display:none;">
+      <div class="container-fluid photo">
+        <div class="row">
+          <div class="col-sm-8 " id="monu1">
+            <img src="galerie/monu1.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu2" style="display:none">
+            <img src="galerie/monu2.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu3" style="display:none">
+            <img src="galerie/monu3.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu4" style="display:none">
+            <img src="galerie/monu4.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu5" style="display:none">
+            <img src="galerie/monu5.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu6" style="display:none">
+            <img src="galerie/monu6.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu7" style="display:none">
+            <img src="galerie/monu7.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="monu8" style="display:none">
+            <img src="galerie/monu8.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-4 ">
+            <div class="container-fluid ">
+              <div class="row dodo">
+                <div class="col-sm-6 col-xs-3">
+                  <a href="#monu1" onclick="toggleVisibility1('monu1')"><img src="galerie/monu1.jpg" alt="" class="img-responsive petitephoto " ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#monu2" onclick="toggleVisibility1('monu2')"><img src="galerie/monu2.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6 col-xs-3 ">
+                 <a href="#monu3" onclick="toggleVisibility1('monu3')"><img src="galerie/monu3.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6 col-xs-3 ">
+                 <a href="#monu4" onclick="toggleVisibility1('monu4')" ><img src="galerie/monu4.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6 col-xs-3 ">
+                 <a href="#monu5" onclick="toggleVisibility1('monu5')" ><img src="galerie/monu5.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6  col-xs-3">
+                 <a href="#monu6" onclick="toggleVisibility1('monu6')"><img src="galerie/monu6.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6  col-xs-3">
+                 <a href="#monu7" onclick="toggleVisibility1('monu7')"><img src="galerie/monu7.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+               <div class="col-sm-6 col-xs-3 ">
+                 <a href="#monu8" onclick="toggleVisibility1('monu8')"><img src="galerie/monu8.jpg" alt="" class="img-responsive petitephoto" ></a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4 retour">
+            <a href="portofolio.html">Close</a>
+          </div>
+        </div>
+      </div>
+      </aside>
+    </section>
+
+    <section id="photo2" style="display:none;">
+      <div class="container-fluid photo">
+        <div class="row">
+          <div class="col-sm-8 " id="street1">
+            <img src="galerie/street1.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street2" style="display:none">
+            <img src="galerie/street2.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street3" style="display:none">
+            <img src="galerie/street3.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street4" style="display:none">
+            <img src="galerie/street4.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street5" style="display:none">
+            <img src="galerie/street5.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street6" style="display:none">
+            <img src="galerie/street6.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street7" style="display:none">
+            <img src="galerie/street7.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="street8" style="display:none">
+            <img src="galerie/street8.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-4 ">
+            <div class="container-fluid ">
+              <div class="row dodo">
+                <div class="col-sm-6 col-xs-3">
+                  <a href="#street1" onclick="toggleVisibility2('street1')"><img src="galerie/street1.jpg" alt="" class="img-responsive petitephoto " ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#street2" onclick="toggleVisibility2('street2')"><img src="galerie/street2.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#street3" onclick="toggleVisibility2('street3')"><img src="galerie/street3.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#street4" onclick="toggleVisibility2('street4')" ><img src="galerie/street4.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#street5" onclick="toggleVisibility2('street5')" ><img src="galerie/street5.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#street6" onclick="toggleVisibility2('street6')"><img src="galerie/street6.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#street7" onclick="toggleVisibility2('street7')"><img src="galerie/street7.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#street8" onclick="toggleVisibility2('street8')">  <img src="galerie/street8.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4 retour">
+            <a href="portofolio.html">Close</a>
+          </div>
+        </div>
+      </div>
+      </aside>
+    </section>
+
+    <section id="photo3" style="display:none;">
+      <div class="container-fluid photo">
+        <div class="row">
+          <div class="col-sm-8 " id="museum1">
+            <img src="galerie/museum1.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum2" style="display:none">
+            <img src="galerie/museum2.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum3" style="display:none">
+            <img src="galerie/museum3.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum4" style="display:none">
+            <img src="galerie/museum4.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum5" style="display:none">
+            <img src="galerie/museum5.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum6" style="display:none">
+            <img src="galerie/museum6.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum7" style="display:none">
+            <img src="galerie/museum7.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="museum8" style="display:none">
+            <img src="galerie/museum8.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-4 ">
+            <div class="container-fluid ">
+              <div class="row dodo">
+                <div class="col-sm-6 col-xs-3">
+                  <a href="#museum1" onclick="toggleVisibility3('museum1')">  <img src="galerie/museum1.jpg" alt="" class="img-responsive petitephoto " ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#museum2" onclick="toggleVisibility3('museum2')"><img src="galerie/museum2.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#museum3" onclick="toggleVisibility3('museum3')"><img src="galerie/museum3.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#museum4" onclick="toggleVisibility3('museum4')" ><img src="galerie/museum4.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#museum5" onclick="toggleVisibility3('museum5')" >  <img src="galerie/museum5.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#museum6" onclick="toggleVisibility3('museum6')"><img src="galerie/museum6.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#museum7" onclick="toggleVisibility3('museum7')">  <img src="galerie/museum7.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#museum8" onclick="toggleVisibility3('museum8')">  <img src="galerie/museum8.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4 retour">
+            <a href="portofolio.html">Close</a>
+          </div>
+        </div>
+      </div>
+      </aside>
+    </section>
+
+    <section id="photo4" style="display:none;">
+      <div class="container-fluid photo">
+        <div class="row">
+          <div class="col-sm-8 " id="parc1">
+            <img src="galerie/parc1.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc2" style="display:none">
+            <img src="galerie/parc2.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc3" style="display:none">
+            <img src="galerie/parc3.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc4" style="display:none">
+            <img src="galerie/parc4.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc5" style="display:none">
+            <img src="galerie/parc5.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc6" style="display:none">
+            <img src="galerie/parc6.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc7" style="display:none">
+            <img src="galerie/parc7.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-8 " id="parc8" style="display:none">
+            <img src="galerie/parc8.jpg" alt="" class="img-responsive grandphoto" >
+          </div>
+          <div class="col-sm-4 ">
+            <div class="container-fluid ">
+              <div class="row dodo">
+                <div class="col-sm-6 col-xs-3">
+                  <a href="#parc1" onclick="toggleVisibility4('parc1')">  <img src="galerie/parc1.jpg" alt="" class="img-responsive petitephoto " ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#parc2" onclick="toggleVisibility4('parc2')"><img src="galerie/parc2.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#parc3" onclick="toggleVisibility4('parc3')"><img src="galerie/parc3.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#parc4" onclick="toggleVisibility4('parc4')" ><img src="galerie/parc4.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#parc5" onclick="toggleVisibility4('parc5')" >  <img src="galerie/parc5.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#parc6" onclick="toggleVisibility4('parc6')"><img src="galerie/parc6.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6  col-xs-3">
+                  <a href="#parc7" onclick="toggleVisibility4('parc7')">  <img src="galerie/parc7.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+                <div class="col-sm-6 col-xs-3 ">
+                  <a href="#parc8" onclick="toggleVisibility4('parc8')">  <img src="galerie/parc8.jpg" alt="" class="img-responsive petitephoto" ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4 retour">
+            <a href="portofolio.html">Close</a>
+          </div>
+        </div>
+      </div>
+      </aside>
+    </section>
+  </section>
+
+  <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class=" col-xs-offset-1 col-xs-5 col-sm-3 col-sm-offset-0">
+             <a href="index.html" class="navbar-brand"><img src="photo/logo1.png" alt="logo" class="logo2"></a>
+
+          </div>
+          <div class=" col-xs-5  col-sm-3 col-sm-offset-0 ">
+            <ul class="list-unstyled down">
+              <li><a href="#">Facebook</a>
+              </li>
+              <li><a href="#">Tweeter</a>
+              </li>
+              <li><a href="#Paris">Instagram</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class=" col-xs-offset-1 col-xs-5 col-sm-3 col-sm-offset-0 ">
+            <ul class="list-unstyled down">
+              <li><a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="aboutme.html">About me</a>
+              </li>
+              <li>
+                <a href="equipment.html">Equipments</a>
+              </li>
+          </div>
+          <div class=" col-xs-5 col-sm-3 ">
+            <ul class="list-unstyled down">
+              <li>
+                <a href="portofolio.html">Portofolio</a>
+              </li>
+              <li>
+              <li><a href="contact.html">Contact</a>
+              </li>
+              <li><a href="#Paris">FAQ 2018</a>
+              </li>
+            </ul>
+          </figure>
+            </div>
+        </div>
+        </div>
+
+
+    </footer>
+
+
+  <script src="bootstrap/bootstrap-3.3.7-dist/js/jquery.js"></script>
+
+  <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!--  <script>
+  var divs = ["photo1", "photo2", "photo3", "photo4"];
+     var visibleDivId = null;
+     function toggleVisibility(divId) {
+       if(visibleDivId === divId) {
+         //visibleDivId = null;
+       } else {
+         visibleDivId = divId;
+       }
+       hideNonVisibleDivs();
+     }
+     function hideNonVisibleDivs() {
+       var i, divId, div;
+       for(i = 0; i < divs.length; i++) {
+         divId = divs[i];
+         div = document.getElementById(divId);
+         if(visibleDivId === divId) {
+           div.style.display = "block";
+         } else {
+           div.style.display = "none";
+         }
+       }
+     }
+
+</script>   -->
+<script>
+const divs = ["photo1", "photo2", "photo3", "photo4"];
+let visibleDivId = null;
+const toggleVisibility = (divId)=>{
+  (visibleDivId === divId) ? {} : visibleDivId = divId;
+    //visibleDivId = null;
+hideNonVisibleDivs();
+}
+const hideNonVisibleDivs=()=>{
+  let i, divId, div;
+  for(i of divs){
+    divId = i;
+    div = document.getElementById(divId);
+    (visibleDivId === divId) ? div.style.display = "block" : div.style.display = "none";
+
+  }
+}
+</script>
+<script>
+const mon = ["monu1", "monu2","monu3","monu4", "monu5","monu6","monu7","monu8"];
+let visible1 = null;
+const toggleVisibility1 = (divA)=>{
+  (visible1 === divA) ? {} : visible1 = divA;
+    //visibleDivId = null;
+hideNonVisibleDivs1();
+}
+const hideNonVisibleDivs1=()=>{
+  let i, divA, div;
+  for(i of mon){
+    divA = i;
+    div = document.getElementById(divA);
+    (visible1 === divA) ? div.style.display = "block" : div.style.display = "none";
+
+  }
+}
+</script>
+<script>
+const streetA = ["street1","street2","street3","street4","street5","street6","street7","street8"];
+let visible2 = null;
+const toggleVisibility2 = (divB)=>{
+  (visible2 === divB) ? {} : visible2 = divB;
+    //visibleDivId = null;
+hideNonVisibleDivs2();
+}
+const hideNonVisibleDivs2=()=>{
+  let i, divB, div;
+  for(i of streetA){
+    divB = i;
+    div = document.getElementById(divB);
+    (visible2 === divB) ? div.style.display = "block" : div.style.display = "none";
+
+  }
+}
+</script>
+<script>
+const museumA = ["museum1","museum2","museum3","museum4","museum5","museum6","museum7","museum8"];
+let visible3 = null;
+const toggleVisibility3 = (divC)=>{
+  (visible3 === divC) ? {} : visible3 = divC;
+    //visibleDivId = null;
+hideNonVisibleDivs3();
+}
+const hideNonVisibleDivs3=()=>{
+  let i, divC, div;
+  for(i of museumA){
+    divC = i;
+    div = document.getElementById(divC);
+    (visible3 === divC) ? div.style.display = "block" : div.style.display = "none";
+
+  }
+}
+</script>
+<script>
+const parcA = ["parc1","parc2","parc3","parc4","parc5","parc6","parc7","parc8"];
+let visible4 = null;
+const toggleVisibility4 = (divD)=>{
+  (visible4 === divD) ? {} : visible4 = divD;
+    //visibleDivId = null;
+hideNonVisibleDivs4();
+}
+const hideNonVisibleDivs4=()=>{
+  let i, divD, div;
+  for(i of parcA){
+    divD = i;
+    div = document.getElementById(divD);
+    (visible4 === divD) ? div.style.display = "block" : div.style.display = "none";
+
+  }
+}
+</script>
+
+
+
+</body>
+</html>
