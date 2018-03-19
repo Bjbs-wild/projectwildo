@@ -6,11 +6,11 @@ This project is the first fictional project that we had to do at the Wild Code S
 
 The subsject was to create a blog for a photographer, Wildo Codak, who loves Paris  and desire to share his passion with the world.
 
-##Dates##
+##Dates
 
 27/02/18 -> 16/03/18 (live demo in front of a fictive client)
 
-##Guidelines##
+##Guidelines
 
 groups of 3/4 people  
 wireframe  
@@ -22,7 +22,7 @@ git & github (bonus: github pages)
 royalty-free photos  
 HTML CSS + JS, NO jQuery outside of bootstrap dependency  
 
-##About us##
+##About us
 
 Members of the project : Bogdan-Ionut Ceu, Joffrey Chauleau,Benoit Rameau et Souhail Souid
 
@@ -35,7 +35,7 @@ We decided to make a clean blog who contains 5 pages:
 
 To see our work just copy in your browser the link below: 
    
-#bjbs-wild.github.io/projectwildo/#
+#bjbs-wild.github.io/projectwildo/
 
 
 
