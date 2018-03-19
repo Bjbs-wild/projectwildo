@@ -33,9 +33,9 @@ We decided to make a clean blog who contains 5 pages:
   * the portofolio page where we put all his photos ,we grouped it in 4 categories ,  
   * and the final page the contact page were we put an contact form,his phone number and his e-mail adress  
 
-To see our work just copy in your browser the link below:  
+To see our work just click on the link below:  
    
-## bjbs-wild.github.io/projectwildo/
+<bjbs-wild.github.io/projectwildo/>
 
 
 
