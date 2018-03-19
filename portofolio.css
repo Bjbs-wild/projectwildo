@@ -134,22 +134,17 @@ box-shadow: 0px 0px 112px -5px rgba(9,9,10,0.85);
 
 
 
-.retour>button>a{
+.glyphicon-remove{
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	color:#000033;
+	margin-bottom: 20px;
 }
 aside{
 	margin-top: 5px;
 }
 
-button{
-
-	font-size:20px;
-	color:#000033;
-	margin-bottom: 20px;
-}
-button>a:hover{
+.glyphicon-remove:hover{
 	text-decoration: none;
 }
 
