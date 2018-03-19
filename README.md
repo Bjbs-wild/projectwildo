@@ -35,7 +35,7 @@ We decided to make a clean blog who contains 5 pages:
 
 To see our work just click on the link below:  
    
-<bjbs-wild.github.io/projectwildo/>
+ [Wildo Codak by BJBS](http://bjbs-wild.github.io/projectwildo/)
 
 
 
